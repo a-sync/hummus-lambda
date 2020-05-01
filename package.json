@@ -1,0 +1,29 @@
+{
+  "name": "hummus-lambda",
+  "version": "1.0.0",
+  "description": "Create, read and modify PDF files and streams on AWS Lambda nodejs10.x runtime",
+  "homepage": "http://pdfhummus.com/",
+  "license": "Apache-2.0",
+  "author": "Gal Kahana <gal.kahana@hotmail.com>",
+  "main": "./hummus",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/a-sync/hummus-lambda.git"
+  },
+  "keywords": [
+    "pdf",
+    "pdfhummus",
+    "lambda",
+    "aws"
+  ],
+  "files": [
+    "binding",
+    "hummus.js",
+    "hummus.d.ts",
+    "PDFRStreamForFile.js",
+    "PDFStreamForResponse.js",
+    "PDFWStreamForFile.js",
+    "PDFRStreamForBuffer.js",
+    "PDFWStreamForBuffer.js"
+  ]
+}
